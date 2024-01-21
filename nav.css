@@ -1,0 +1,104 @@
+body{
+    width: 100%;
+    font-family: "Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+}
+
+
+
+
+
+#nav-left li span
+{
+    font-size: 16px;
+    width: 23px;
+    height: 12px;
+color:#ff3f6c;
+font-family: Assistant;
+
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+
+}
+
+#logo img{
+width: 114px;
+height: 82px;
+}
+
+
+#nav-container{
+    width: 100%;
+    height: 80px;
+    /* background-color: rgb(159, 159, 190); */
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+#nav-left{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    align-items: center;
+    height: 80px;
+    list-style: none;
+}
+#nav-right{
+    display: grid;
+    grid-template-columns: 55% 15% 15% 15%;
+    align-items: center;
+    height: 80px;
+    list-style: none;
+}
+#nav-right input{
+    margin-left: 58px;
+    width: 280px;
+    height: 26px;
+}
+#firstSection{
+    width: 100%;
+}
+
+#firstSection img{
+    width: 100%;
+}
+
+
+#secSection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+#leftSec img{
+    width: 100%;
+}
+#rightSec img{
+    width: 100%;
+}
+
+
+
+.sidebar {
+    right: 0;
+    writing-mode: vertical-lr;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    position: fixed;
+    bottom: 130px;
+    width: 44px;
+    height: 288px;
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}

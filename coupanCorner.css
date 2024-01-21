@@ -1,0 +1,42 @@
+#coupan{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
+#corner img{
+    width: 100%;
+}
+
+#useCode{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+#leftCode img{
+    width: 100%;
+}
+
+#rightCode img{
+    width: 100%;
+}
+
+#deals{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
+
+#dels1 img{
+    width: 100%;
+
+}
+#product{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    width: 100%;
+}
+.productitem img{
+    width: 100%;
+}
+

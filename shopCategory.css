@@ -1,0 +1,43 @@
+#shopbycatageory{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+}
+
+#catoImg img{
+    width: 100%;
+}
+
+#shopImg{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto auto auto;
+    
+}
+
+.shopItem img{
+    width: 100%;
+}
+
+#footer{
+    width: 100%;
+    margin: auto;
+
+    padding-top: 10%;
+   
+    display: grid;
+    grid-template-columns:  30% auto 40% auto;
+    
+}
+
+
+#footer li{
+    margin: auto;
+    list-style: none;
+   
+}
+
+#footer img{
+    width: 250px;
+    height: 100px;
+}
